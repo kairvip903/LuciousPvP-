@@ -1,7 +1,7 @@
 local env = (getgenv and getgenv()) or _G
-local RAW = "https://raw.githubusercontent.com/kairvip903/minhtuandzyeuem/refs/heads/main/"
-local FILE = "lucious_pvp"
-local API = "https://api.github.com/repos/kairvip903/minhtuandzyeuem/commits?path=" .. FILE .. "&per_page=1"
+local RAW = "https://raw.githubusercontent.com/kairvip903/LuciousPvP-/refs/heads/main/"
+local FILE = "Luciouspvp"
+local API = "https://api.github.com/repos/kairvip903/LuciousPvP-/commits?path=" .. FILE .. "&per_page=1"
 local CACHE, VER = "LuciousHub/pvp_build.lua", "LuciousHub/pvp_build.sha"
 local DB_URL = "https://kggjpyyaeknodmfveeaq.supabase.co/rest/v1/rpc/lh_check_key"
 local DB_KEY = "sb_publishable_Nc047R_WKcU2OobUUSE3bA_koga4ANo"
